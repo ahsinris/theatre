@@ -1,0 +1,148 @@
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-07 15:19:07"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-07 15:22:09"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-07 15:26:00"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-07 15:26:11"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-07 15:26:40"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 15:34:01"}
+{"level":"info","message":"user details updated  successfully.","timestamp":"2023-12-07 15:42:24"}
+{"level":"info","message":"reset password mail send successfully","timestamp":"2023-12-07 16:48:32"}
+{"level":"info","message":"password successfully reseted.","timestamp":"2023-12-07 16:53:38"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 17:26:11"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 17:32:42"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 18:17:18"}
+{"level":"error","message":"Error in theater controller: Cannot read property 'sucess' of undefined","timestamp":"2023-12-07 18:18:39"}
+{"level":"info","message":"theater details added successfully","timestamp":"2023-12-07 18:19:19"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 18:21:29"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 18:22:01"}
+{"level":"info","message":"theater details added successfully","timestamp":"2023-12-07 18:22:21"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 18:35:20"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:35:57"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:42:13"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:42:35"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:42:39"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:42:56"}
+{"level":"info","message":"theater  screen details added successfully","timestamp":"2023-12-07 18:43:02"}
+{"level":"error","message":"failed to addseatnumber details Internal Server Error","timestamp":"2023-12-07 19:57:23"}
+{"level":"error","message":"failed to addseatnumber details Internal Server Error","timestamp":"2023-12-07 19:58:15"}
+{"level":"info","message":"seat number added successfully","timestamp":"2023-12-07 19:59:21"}
+{"level":"info","message":"seat number added successfully","timestamp":"2023-12-07 20:00:55"}
+{"level":"info","message":"seat number added successfully","timestamp":"2023-12-07 20:02:34"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-07 22:15:51"}
+{"level":"info","message":"movie details added successfully","timestamp":"2023-12-07 22:16:33"}
+{"level":"info","message":"movie slot details added successfully","timestamp":"2023-12-07 22:33:31"}
+{"level":"info","message":"movie slot details added successfully","timestamp":"2023-12-07 22:36:36"}
+{"level":"info","message":"movie details fetched successfully","timestamp":"2023-12-07 22:39:59"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-08 07:54:09"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-08 07:54:17"}
+{"level":"info","message":"user details updated  successfully.","timestamp":"2023-12-08 07:54:26"}
+{"level":"info","message":"reset password mail send successfully","timestamp":"2023-12-08 07:54:31"}
+{"level":"error","message":"Error in BookingController: Cannot read property 'sucess' of undefined","timestamp":"2023-12-08 07:59:31"}
+{"level":"error","message":"failed to fetch  booking movies details this movie doesnot exist","timestamp":"2023-12-08 08:00:56"}
+{"level":"error","message":"failed to fetch  booking movies details this movie_slot doesnot exist","timestamp":"2023-12-08 08:01:19"}
+{"level":"error","message":"failed to fetch  booking movies details theater not exist","timestamp":"2023-12-08 08:01:34"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-08 08:01:39"}
+{"level":"error","message":"Error in BookingController: Cannot read property 'sucess' of undefined","timestamp":"2023-12-08 08:01:44"}
+{"level":"error","message":"Error in BookingController: Cannot read property 'sucess' of undefined","timestamp":"2023-12-08 08:06:46"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 08:09:03"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:09:50"}
+{"level":"error","message":"Error in sucessPayment controller: Cannot read property 'seat_id' of undefined","timestamp":"2023-12-08 12:10:32"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:11:37"}
+{"level":"error","message":"Error in sucessPayment controller: Cannot read property 'seat_id' of undefined","timestamp":"2023-12-08 12:12:13"}
+{"level":"error","message":"payment failed: booking id not found","timestamp":"2023-12-08 12:16:10"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:16:20"}
+{"level":"error","message":"Error in sucessPayment controller: Cannot read property 'seat_id' of undefined","timestamp":"2023-12-08 12:16:56"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:19:54"}
+{"level":"error","message":"Error in sucessPayment controller: movieDetails.dataValues.seat_id.map is not a function","timestamp":"2023-12-08 12:20:26"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:28:29"}
+{"level":"error","message":"Error in sucessPayment controller: screen is not defined","timestamp":"2023-12-08 12:29:03"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:30:29"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 12:34:40"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 12:35:58"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 12:36:55"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-08 12:37:24"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 12:43:28"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 12:44:22"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 14:03:55"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 14:04:22"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-08 14:16:33"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 14:49:17"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 14:58:54"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 15:04:37"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 15:12:45"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 15:22:21"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 17:18:43"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 17:34:35"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 17:51:29"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-08 18:04:10"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-11 11:09:10"}
+{"level":"error","message":"payment failed:  already payment done","timestamp":"2023-12-11 11:14:57"}
+{"level":"error","message":"Error in sucessPayment controller: Cannot read property 'dataValues' of null","timestamp":"2023-12-11 15:07:38"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-22 15:40:52"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-22 15:40:55"}
+{"level":"error","message":"Error in update controller: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-22 15:42:06"}
+{"level":"error","message":"Error in update controller: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-22 15:42:39"}
+{"level":"info","message":"user details updated  successfully.","timestamp":"2023-12-22 15:43:07"}
+{"level":"info","message":"movie details added successfully","timestamp":"2023-12-22 15:46:05"}
+{"level":"info","message":"movie slot details added successfully","timestamp":"2023-12-22 15:46:21"}
+{"level":"info","message":"movie details fetched successfully","timestamp":"2023-12-22 15:46:31"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-22 15:47:04"}
+{"level":"error","message":"payment failed:  already payment done","timestamp":"2023-12-22 15:47:11"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-22 21:23:28"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-22 21:23:39"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-22 21:23:47"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-22 21:26:59"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-22 21:29:24"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-22 21:29:32"}
+{"level":"error","message":"Login failed: this email not exist kindly register first","timestamp":"2023-12-22 21:30:01"}
+{"level":"error","message":"Login failed: invalid credentials","timestamp":"2023-12-22 21:30:32"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-22 21:30:46"}
+{"level":"info","message":"movie details fetched successfully","timestamp":"2023-12-22 21:34:01"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-22 21:38:26"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-22 21:39:45"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-22 21:40:05"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-22 21:43:35"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-26 10:27:33"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-26 10:28:11"}
+{"level":"error","message":"Error in login controller: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-26 10:30:00"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 10:30:52"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-26 12:23:39"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-26 12:27:35"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-26 12:28:02"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-26 12:28:21"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 12:29:39"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 12:32:52"}
+{"level":"info","message":"all user details fetched successfully","timestamp":"2023-12-26 12:37:15"}
+{"level":"error","message":"Error in getAllUserController : Invalid status code: undefined","timestamp":"2023-12-26 12:37:15"}
+{"level":"info","message":"all user details fetched successfully","timestamp":"2023-12-26 12:38:17"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-26 12:43:34"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-26 12:44:26"}
+{"level":"info","message":"User signed up successfully","timestamp":"2023-12-26 12:45:52"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 12:46:33"}
+{"level":"info","message":"theater details added successfully","timestamp":"2023-12-26 12:47:29"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 13:00:40"}
+{"level":"error","message":"Error in getSpecficUserController : Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-26 13:01:43"}
+{"level":"error","message":"Error in getSpecficUserController : Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-26 13:02:46"}
+{"level":"info","message":"user details fetched successfully","timestamp":"2023-12-26 13:03:17"}
+{"level":"info","message":"user details fetched successfully","timestamp":"2023-12-26 13:04:17"}
+{"level":"info","message":"User logged in successfully.","timestamp":"2023-12-26 14:27:49"}
+{"level":"error","message":"Error in getTheaterByLocationController : Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-26 14:28:25"}
+{"level":"error","message":"Error in getTheaterByLocationController : Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-26 14:28:37"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:29:39"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:32:01"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:32:02"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:32:24"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:33:23"}
+{"level":"info","message":"theater details fetched successfully for the given location","timestamp":"2023-12-26 14:34:49"}
+{"level":"error","message":"failed to get theater details}error in finding theaters for the given location","timestamp":"2023-12-26 14:36:33"}
+{"level":"error","message":"failed to get theater details:error in finding theaters for the given location}","timestamp":"2023-12-26 14:38:27"}
+{"level":"error","message":"failed to get theater details:no theater is available in given location}","timestamp":"2023-12-26 14:39:23"}
+{"level":"error","message":"failed to get specfic theater movie details:no theater found for the given theater id}","timestamp":"2023-12-26 15:20:31"}
+{"level":"info","message":" movie details fetched successfully for the given theater","timestamp":"2023-12-26 15:20:52"}
+{"level":"info","message":" movie details fetched successfully for the given theater","timestamp":"2023-12-26 15:21:41"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-26 15:24:27"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-26 15:24:36"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-26 15:33:36"}
+{"level":"info","message":"fetched movies booked details  successfully","timestamp":"2023-12-26 16:41:00"}
+{"level":"error","message":"payment failed:  already payment done","timestamp":"2023-12-26 16:41:19"}
+{"level":"info","message":"payment successfully.","timestamp":"2023-12-26 16:43:14"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-26 16:48:13"}
