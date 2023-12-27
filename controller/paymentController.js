@@ -47,6 +47,10 @@ class Controller {
             const bookingId = payment_details.dataValues.booking_id
             const paymentId = payment_details.dataValues.payment_id
 
+            // clear the booking timeout
+
+            clearTimeout(bookingTimeouts[bookingId])
+
             /** get the payment payload using stripeid */
             const sessionDeatils = await stripe.checkout.sessions.retrieve(stripeid
             );
@@ -246,6 +250,8 @@ class Controller {
 
             const bookingId = payment_details.dataValues.booking_id
 
+            clearTimeout(bookingTimeouts[bookingId])
+
 
             const paymentId = payment_details.dataValues.payment_id
 
@@ -279,17 +285,20 @@ class Controller {
 
             }
 
-            const moviebooking = await booking.update(moviebookingDetails, {
-                where: {
-                    booking_id: bookingId
-                }
-            })
-
+            // remove booking details from booking table
             const movieDetails = await booking.findOne({
                 where: {
                     booking_id: bookingId
                 }
             })
+
+            const deleteBookingDetails = await booking.destroy({
+                where: {
+                    booking_id: bookingId
+
+                }
+            })
+
 
             return res.status(400).json({
                 status: 400,
@@ -309,3 +318,4 @@ class Controller {
 
 
 export default new Controller()
+

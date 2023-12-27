@@ -48,3 +48,72 @@
 {"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-26 15:24:27"}
 {"level":"error","message":"payment failed:  already payment done","timestamp":"2023-12-26 16:41:19"}
 {"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-26 16:48:13"}
+{"level":"error","message":"Signup failed: user already exist","timestamp":"2023-12-27 12:06:00"}
+{"level":"error","message":"Error in forgetPasswordController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:07:44"}
+{"level":"error","message":"Error in forgetPasswordController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:08:54"}
+{"level":"error","message":"Error in forgetPasswordController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:09:53"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:49:32"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:50:51"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 12:51:02"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 12:51:26"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 12:51:48"}
+{"level":"error","message":"failed to fetch  booking movies details theater not exist","timestamp":"2023-12-27 12:52:09"}
+{"level":"error","message":"failed to fetch  booking movies details theater not exist","timestamp":"2023-12-27 12:52:30"}
+{"level":"error","message":"failed to fetch  booking movies details theater not exist","timestamp":"2023-12-27 12:52:44"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 12:52:50"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 13:36:07"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 14:22:34"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 14:23:15"}
+{"level":"error","message":"failed to fetch  booking movies details this screen not exist on this theater","timestamp":"2023-12-27 14:23:35"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:23:59"}
+{"level":"error","message":"Error in BookingController: Invalid status code: undefined","timestamp":"2023-12-27 14:23:59"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:26:57"}
+{"level":"error","message":"Error in BookingController: Invalid status code: undefined","timestamp":"2023-12-27 14:26:57"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:27:43"}
+{"level":"error","message":"Error in BookingController: Invalid status code: undefined","timestamp":"2023-12-27 14:27:43"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:28:11"}
+{"level":"error","message":"Error in BookingController: Invalid status code: undefined","timestamp":"2023-12-27 14:28:11"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:28:31"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:30:49"}
+{"level":"error","message":"failed to fetch  booking movies details the given does not run on the given theater or screen","timestamp":"2023-12-27 14:31:23"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 14:35:19"}
+{"level":"error","message":"failed to fetch  booking movies details enter unique seatids","timestamp":"2023-12-27 14:36:51"}
+{"level":"error","message":"failed to fetch  booking movies details pls enter unique seat ids","timestamp":"2023-12-27 14:37:19"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-27 14:39:13"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-27 14:39:46"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-27 14:40:24"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 14:47:33"}
+{"level":"error","message":"payment failed:  already payment done","timestamp":"2023-12-27 14:47:55"}
+{"level":"error","message":"failed to fetch  booking movies details this movie_slot doesnot exist","timestamp":"2023-12-27 14:49:40"}
+{"level":"error","message":"failed to fetch  booking movies details this movie_slot doesnot exist","timestamp":"2023-12-27 14:49:47"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 17:26:59"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 17:28:21"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:31:03"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:32:04"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:32:08"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:32:29"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:32:50"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2023-12-27 17:33:10"}
+{"level":"error","message":"failed to fetch  booking movies details seat number doesnot exist","timestamp":"2023-12-27 17:33:29"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 17:34:04"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 17:34:20"}
+{"level":"error","message":"failed to fetch  booking movies details this seat already booked","timestamp":"2023-12-27 17:35:07"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2023-12-27 17:37:34"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 17:38:19"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 17:38:53"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 17:48:30"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 17:58:29"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:04:24"}
+{"level":"error","message":"failed to fetch  booking movies details this movie doesnot exist","timestamp":"2023-12-27 18:05:23"}
+{"level":"error","message":"failed to fetch  booking movies details this movie doesnot run on this slot","timestamp":"2023-12-27 18:05:37"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:05:58"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:10:16"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:23:56"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:25:50"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:26:13"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:27:01"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:28:20"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:28:21"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:29:23"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:29:33"}
+{"level":"error","message":"Error in BookingController: Converting circular structure to JSON\n    --> starting at object with constructor 'Timeout'\n    |     property '_idlePrev' -> object with constructor 'TimersList'\n    --- property '_idleNext' closes the circle","timestamp":"2023-12-27 18:30:12"}

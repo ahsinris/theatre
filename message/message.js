@@ -57,6 +57,13 @@ class Message {
 
   128 = 'no movies run on the given theater';
 
+  129 = `given email id doestnot exist`
+
+  130 = `the given movie does not run on the given theater or screen`
+
+  131 = `pls enter unique seat ids`
+  132 = `can't book these seats`
+
   200 = 'registered sucessfully';
 
   201 = 'login  sucessfully';

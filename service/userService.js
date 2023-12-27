@@ -183,8 +183,15 @@ class UserService {
       const { email_id } = req.body;
 
       const isUserExist = await user.findOne({ where: { email_id } });
+      if(!isUserExist){
+        return{
+          sucess:false,
+          status:httpCodes.HTTP_NOT_FOUND,
+          message:message
+        }
+      }
 
-      const { user_id } = isUserExist.dataValues;
+      const { user_id } = isUserExist.dataValues.user_id;
 
       if (!isUserExist) {
         return {

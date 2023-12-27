@@ -232,7 +232,7 @@ class Validation {
 
       });
 
-      await schema.validateAsync(req.query);
+      await schema.validateAsync(req.body);
 
       next();
     } catch (err) {
