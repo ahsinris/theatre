@@ -14,6 +14,7 @@ async function writeFile(file, content) {
 class Csv {
   csvdata(finalData) {
     let csv = '';
+
     const headers = [
       'User ID',
       'User Name',

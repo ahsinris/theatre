@@ -8,24 +8,7 @@ class Service {
       const adminId = req.user.user_id;
       const { screen_id, theater_id } = req.body;
 
-      // // this Generate 100 seat numbers
-      // const seatNumbers = Array.from({ length: 100 }, (_, index) => `Seat-${index + 1}`);
 
-      // // Create an array to store the created seat objects
-      // const createdSeats = [];
-
-      // // Save each seat to the database
-      // for (const seat_number of seatNumbers) {
-      //     const seat_details = {
-      //         seat_number: seat_number,
-      //         screen_id: screen_id,
-      //         theater_id: theater_id,
-      //         admin_id: adminId
-      //     };
-
-      //     const result = await seats.create(seat_details);
-      //     createdSeats.push(result);
-      // }
       // Generate 100 seat numbers
       const seatNumbers = Array.from({ length: 100 }, (_, index) => ({
         seat_number: `Seat-${index + 1}`,

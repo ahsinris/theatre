@@ -117,7 +117,13 @@ class UserService {
 
   async getAllUsersService(req) {
     try {
-      const result = await user.findAll();
+      let result = await user.findAll();
+      for (const res of result) {
+        delete res.dataValues.phone_number
+        delete res.dataValues.password
+        delete res.dataValues.role
+      }
+
       return {
         sucess: true,
         status: httpCodes.HTTP_OK,
@@ -135,11 +141,15 @@ class UserService {
       const userId = req.user.user_id;
       const result = await user.findOne({ where: { user_id: userId } });
       delete result.dataValues.password;
+      delete result.dataValues.phone_number;
+      delete result.dataValues.role;
+      delete result.dataValues.is_active;
+      delete result.dataValues.is_deleted;
       return {
         sucess: true,
         status: httpCodes.HTTP_OK,
         message: message[218],
-        data: result,
+        data: result
       };
     } catch (e) {
       console.log(e);
@@ -183,11 +193,11 @@ class UserService {
       const { email_id } = req.body;
 
       const isUserExist = await user.findOne({ where: { email_id } });
-      if(!isUserExist){
-        return{
-          sucess:false,
-          status:httpCodes.HTTP_NOT_FOUND,
-          message:message
+      if (!isUserExist) {
+        return {
+          sucess: false,
+          status: httpCodes.HTTP_NOT_FOUND,
+          message: message
         }
       }
 

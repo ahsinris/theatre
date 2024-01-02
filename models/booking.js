@@ -31,7 +31,7 @@ const booking = sequelize.define('booking', {
     allowNull: false,
   },
   seat_id: {
-    type: DataTypes.STRING,
+    type: DataTypes.JSON,
     allowNull: false,
   },
   user_id: {

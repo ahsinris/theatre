@@ -9,6 +9,8 @@ import screen from '../models/screen.js';
 import seats from '../models/seat.js';
 import validateuniqueSeatids from '../middleware/unique.js'
 import releaseSeatsAndCancelBooking from '../middleware/destroyBooking.js';
+import { Op, Sequelize, literal } from 'sequelize';
+import sequelize from '../db/mysql.js';
 
 class Service {
   async bookingService(req) {
@@ -18,25 +20,33 @@ class Service {
         movie_id, movie_slot_id, theater_id, screen_id, seat_id, ticket_count,
       } = req.body;
 
-      // checks those seats are in already booked and in payment gateway
-
-      for (const seat of seat_id) {
-        const prebookingChecks = await booking.findAll({
-          where: {
-            seat_id: seat,
-            booking_status: 'pending'
-          }
-        })
+      console.log(seat_id)
 
 
-        if (!prebookingChecks.length == 0) {
-          return {
-            sucess: false,
-            status: httpcodes.HTTP_BAD_REQUEST,
-            message: message[132]
-          }
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     [Op.or]: seat_id.map(number => literal(`JSON_CONTAINS(seat_id, '${number}')`))
+      //   }
+      // });
+
+      const prebookingChecks = await booking.findAll({
+        where: {
+          [Op.or]: seat_id.map(number => ({ seat_id: { [Op.contains]: [number] } }))
+        }
+      })
+
+
+
+      console.log(">>>>>>>", prebookingChecks.length, prebookingChecks)
+
+      if (prebookingChecks.length > 0) {
+        return {
+          sucess: false,
+          status: httpcodes.HTTP_BAD_REQUEST,
+          message: message[132]
         }
       }
+
 
       const user_details = await user.findOne({ where: { user_id: userId } });
 
@@ -148,6 +158,7 @@ class Service {
           }
         });
 
+
         if (!seatNumberExist) {
           return {
             sucess: false,
@@ -197,19 +208,15 @@ class Service {
         movie_slot_id,
         theater_id,
         screen_id,
-        seat_id: JSON.stringify(seat_id),
+        seat_id: seat_id,
         user_id: userId,
         ticket_count,
       };
 
+
       const bookingTimeouts = {}
 
       const ticket_booking = await booking.create(ticket_booking_details);
-
-      console.log("<<<<<<<<", ticket_booking)
-
-      console.log(">>><<<<", movie_details)
-
 
       //15 mins in ms
       const timeout = 15 * 60 * 1000
@@ -222,21 +229,18 @@ class Service {
 
       bookingTimeouts[ticket_booking.dataValues.booking_id] = timeoutId
 
-
-      console.log("////////", timeoutId)
-
       return {
         sucess: true,
         status: httpcodes.HTTP_OK,
         message: message[209],
         data: {
           movie_details,
-          // ticket_booking,
+          ticket_booking,
           // timeoutId
         },
       };
     } catch (e) {
-      console.log(">>>>>>", e);
+      console.log(e);
     }
   }
 }

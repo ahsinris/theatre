@@ -32,7 +32,7 @@ class TheaterService {
       const { location } = req.body;
 
       const result = await theater.findOne({ where: { location } });
-      console.log(result);
+      // console.log(result);
 
       if (!result) {
         return {
