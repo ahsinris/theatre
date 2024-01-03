@@ -22,18 +22,14 @@ class Service {
 
       console.log(seat_id)
 
-
-      // const prebookingChecks = await booking.findAll({
-      //   where: {
-      //     [Op.or]: seat_id.map(number => literal(`JSON_CONTAINS(seat_id, '${number}')`))
-      //   }
-      // });
-
       const prebookingChecks = await booking.findAll({
         where: {
-          [Op.or]: seat_id.map(number => ({ seat_id: { [Op.contains]: [number] } }))
-        }
-      })
+          seat_id: {
+            [Op.overlap]: seat_id
+          }
+        },
+        logging: console.log
+      });
 
 
 
