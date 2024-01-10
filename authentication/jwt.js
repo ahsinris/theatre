@@ -10,6 +10,7 @@ const tokenverfication = async (req, res, next) => {
 
     if (!accesstoken) {
       return response.error(req, res, httpcodes.HTTP_BAD_REQUEST, null, message[103]);
+
     }
     req.user = jwt.verify(accesstoken, process.env.SECRETKEY);
 

@@ -9,7 +9,7 @@ import screen from '../models/screen.js';
 import seats from '../models/seat.js';
 import validateuniqueSeatids from '../middleware/unique.js'
 import releaseSeatsAndCancelBooking from '../middleware/destroyBooking.js';
-import { Op, Sequelize, literal } from 'sequelize';
+import { Op, Sequelize, json, literal } from 'sequelize';
 import sequelize from '../db/mysql.js';
 
 class Service {
@@ -24,12 +24,85 @@ class Service {
 
       const prebookingChecks = await booking.findAll({
         where: {
-          seat_id: {
-            [Op.overlap]: seat_id
-          }
+          [Op.or]: seat_id.map(value => {
+            return sequelize.where(
+              sequelize.fn('JSON_CONTAINS', sequelize.col('seat_id'), JSON.stringify([value])),
+              true
+            );
+          })
         },
         logging: console.log
       });
+
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     [Op.or]: seat_id.map(value => ({
+      //       seat_id: {
+      //         [Op.contains]: [value]
+      //       }
+      //     }))
+      //   },
+      //   logging: console.log
+      // });
+
+      // Assuming you have a valid result, you can proceed with your logic
+
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: literal(`JSON_CONTAINS(seat_id, ${JSON.stringify(seat_id)})`),
+      //   logging: console.log
+      // });
+
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     [Op.or]: seat_id.map(value => ({
+      //       seat_id: {
+      //         [Op.contains]: [value]
+      //       }
+      //     }))
+      //   },
+      //   logging: console.log
+      // });
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     [Op.or]: seat_id.map(value => ({
+      //       seat_id: {
+      //         [Op.like]: `%${value}%`
+      //       }
+      //     }))
+      //   },
+      //   logging: console.log
+      // });
+
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     seat_id: {
+      //       [Op.like]: {
+      //         [Op.any]: ['%', JSON.stringify(seat_id), '%']
+      //       }
+      //     }
+      //   },
+      //   logging: console.log
+      // });
+
+
+      // const prebookingChecks = await booking.findAll({
+      //   where: {
+      //     seat_id: {
+      //       [Op.in]: seat_id
+      //     }
+      //   },
+      //   logging: console.log
+      // });
 
 
 

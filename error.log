@@ -354,3 +354,16 @@
 {"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-02 15:03:15"}
 {"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-02 17:15:26"}
 {"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-02 17:16:20"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 11:15:06"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 11:34:33"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 12:08:41"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 12:09:11"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 12:11:23"}
+{"level":"error","message":"Error in BookingController: Cannot read properties of undefined (reading 'sucess')","timestamp":"2024-01-10 12:13:00"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:14:35"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:14:59"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:15:26"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:15:29"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:15:35"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:15:38"}
+{"level":"error","message":"failed to fetch  booking movies details can't book these seats","timestamp":"2024-01-10 12:23:18"}
